@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+body {
+    background-color: #EFF6F9;
+}
+
+A:link {
+    color: #555555;
+    text-decoration: none;
+}
+
+A:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+A:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+A:active {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+div.search_error {
+	color: red;
+	margin-left: 5px;
+}
+
+input.search_error,select.search_error,textarea.search_error {
+	border: 2px solid red;
+}
+
+fieldset.search_panel {
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #c6dae1;
+	padding-bottom: 10px;
+	width: 93%;
+}
+
+table.search_field {
+	float: left;
+	height: 35px;
+	
+	border-collapse: collapse;
+	border:none;
+	
+	height: 35px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+table.search_field td{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #c6dae1;
+}
+
+table.search_field tr td:first-of-type {
+	width: 80px;
+	background-color: #f8fdfe;
+	text-align: center;
+	font-size: 14px;
+}
+
+table.search_field tr td:first-of-type span{
+	white-space:nowrap;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table.search_field tr td:last-of-type {
+	background-color: white;
+}
+
+.search_field_input {
+	width: 200px;
+	border: 1px solid #D8D9D9;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.search_field_select {
+	background-color: white;
+}
+
+.search_button_panel{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 5px;
+	
+	text-align: center;
+}
+
+.search_button {
+	background: url(../img/button_fixed.gif);
+	background-repeat:no-repeat;
+    color: #333333;
+    letter-spacing: 5px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 63px;
+    font-size:15px;
+    
+    -moz-background-size:63px 30px; /* 老版本的 Firefox */
+    background-size:63px 30px;
+    background-repeat:no-repeat;
+    
+    border-style: none;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+
+table.data_panel{
+    background-color: #BFD8E0;
+   	border-style: solid;
+	border-collapse: collapse;
+	border-color: #BFD8E0;
+	border-width: 1px;
+    color: #555555;
+    margin: 2px;
+    text-align: center;
+    width: 95%;
+    font-size: 12px;
+}
+
+table.data_panel th{
+    background-image: url(../img/table_class.gif);
+    color: #075587;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px;
+    
+    border-style: solid;
+	border-collapse: collapse;
+	border-color: #BFD8E0;
+	border-width: 1px;
+}
+
+table.data_panel th span{
+	white-space:nowrap;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table.data_panel td{
+    line-height: 27px;
+    text-indent: 3px;
+    
+    border-style: solid;
+	border-collapse: collapse;
+	border-color: #BFD8E0;
+	border-width: 1px;
+}
+
+.data_record_tr_odd{
+    background-color: #FFFFFF;
+}
+
+.data_record_tr_even{
+    background-color: #FBFBFB;
+}
+
+.data_record_over{
+    background-color: #FFDEAD; 
+}
+
+.button_panel{
+   	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #c6dae1;
+	width: 95%;
+	height: 40px;
+	background-color: white;
+	margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	text-align: right;
+}
+
+.action_button {
+	background: url(../img/button_fixed.gif);
+	background-repeat:no-repeat;
+    color: #333333;
+    letter-spacing: 5px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 63px;
+    font-size:15px;
+    
+    -moz-background-size:63px 30px; /* 老版本的 Firefox */
+    background-size:63px 30px;
+    background-repeat:no-repeat;
+    
+    border-style: none;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+table.pager_panel{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #c6dae1;
+	width: 95%;
+	height: 35px;
+	background-color: white;
+	margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	text-align: right;
+}
+
+table.pager_panel td{
+    padding-right: 5px;
+}
+
+#pager input[type="button"]{
+   margin-left: 2px;
+   margin-right: 2px;
+   
+   	background: url(../img/button_fixed.gif);
+   	border-style:none;
+    color: #333333;
+    letter-spacing: 5px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 63px;
+}
+
+#pager input[type="text"]{
+   margin-left: 2px;
+   margin-right: 2px;
+   border: 1px solid #D8D9D9;
+   height: 20px;
+   line-height: 20px;
+}
+
+.save_form_table {
+    margin: auto;
+	border-collapse: collapse;
+	border:none;
+	width: 800px;	
+	background-color: white;
+}
+
+.save_form_table tr{
+   line-height: 35px;
+}
+
+.save_form_table td{
+  	border-style: solid;
+	border-width: 1px;
+	border-color: #c6dae1;
+}
+
+.save_form_field_label {
+    width: 120px;
+	background-color: #f8fdfe;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-color: #c6dae1;
+	text-align: right;
+	font-size: 14px;
+	padding-right:5px;
+}
+
+.save_form_field_input {
+	width: 500px;
+	border: 1px solid #D8D9D9;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.save_form_field_select {
+	background-color: white;
+}
+
+.save_form_field_textarea {
+	border: 1px solid #D8D9D9;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 500px;
+	height: 150px
+}
+
+.save_form_button_panel{
+    text-align: center;
+    height: 40px;
+}
+
+.save_form_button_panel input{
+    background: url(../img/button_fixed.gif);
+	background-repeat:no-repeat;
+    color: #333333;
+    letter-spacing: 5px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 63px;
+    font-size:15px;
+    
+    -moz-background-size:63px 30px; /* 老版本的 Firefox */
+    background-size:63px 30px;
+    background-repeat:no-repeat;
+    
+    border-style: none;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.save_form_field_readonly{
+    background-color:#EEEEEE;
+    cursor:not-allowed;
+}

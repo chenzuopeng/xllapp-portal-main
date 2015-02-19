@@ -1,0 +1,8 @@
+/target/
+/archetype/target/
+/.settings/
+/.classpath
+/.project
+/bin/
+/logs/
+/src/main/webapp/uploads/
